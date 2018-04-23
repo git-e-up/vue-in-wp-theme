@@ -74,4 +74,3 @@ new App( {
 	store,
 	router
 } ).$mount( '#app' );
-

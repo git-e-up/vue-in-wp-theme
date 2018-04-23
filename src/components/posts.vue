@@ -26,11 +26,11 @@
 							</span>
 						</span>
 					</div>
-					
+
 					<div class="progressive full" v-if="post.featured_image_src['full'][0]">
 
 						<img class="lazy" v-progressive="post.featured_image_src['full'][0]" :data-srcset="post.featured_image_src['srcset']" :src="post.featured_image_src['full'][0]" />
-						
+
 					</div>
 
 					<div class="rt-post-excerpt rt-content" v-html="post.excerpt.rendered" > </div>

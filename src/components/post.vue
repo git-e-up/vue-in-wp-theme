@@ -8,7 +8,7 @@
 			<div class="row rt-main" v-if="loaded === 'true'">
 
 				<div class="medium-12 small-12 column" >
-
+dfsdfds
 					<div class="rt-post">
 
 						<h2 class="rt-post-title"> {{ post.title.rendered }}</h2>
@@ -16,9 +16,9 @@
 						<div class="progressive full">
 
 							<img class="lazy"
-								v-progressive="post.featured_image_src['full'][0]" 
-								:data-srcset="post.featured_image_src['srcset']" 
-								:src="post.featured_image_src['full'][0]" 
+								v-progressive="post.featured_image_src['full'][0]"
+								:data-srcset="post.featured_image_src['srcset']"
+								:src="post.featured_image_src['full'][0]"
 							/>
 						</div>
 
