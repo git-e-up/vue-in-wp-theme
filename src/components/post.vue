@@ -5,7 +5,7 @@
 <template>
 		<transition name="slide-fade">
 
-			<div class="row rt-main" v-if="loaded === 'true'">
+			<div class="row rt-main postt" v-if="loaded === 'true'">
 
 				<div class="medium-12 small-12 column" >
 dfsdfds

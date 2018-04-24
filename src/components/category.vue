@@ -6,7 +6,7 @@
 
 	<transition name="slide-fade">
 
-		<div class="row rt-main" v-if="loaded === 'true'" >
+		<div class="row rt-main catt" v-if="loaded === 'true'" >
 
 			<div class="medium-12 small-12 column" v-for="post in posts" :key="post.slug">
 

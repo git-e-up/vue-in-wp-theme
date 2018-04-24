@@ -41,6 +41,11 @@ $screen-lg-min: 1200px;
 .hide {
   display: none;
 }
+.main-content {
+	margin: 20px auto;
+  text-align: center;
+  width: 90%;
+}
 .ssl-warning {
   display: none;
 }
@@ -127,11 +132,13 @@ a {
     transition: padding 200ms linear;
   }
 }
-
+.init-header {
+	line-height: 45px;
+}
 .info__right-arrow {
   position: absolute;
   right: 5px;
-  top: 10px;
+  top: 0px;
   cursor: pointer;
   overflow: hidden;
   height: 45px;
@@ -173,7 +180,7 @@ a {
   @extend .info__right-arrow;
   position: absolute;
   left: 5px;
-  top: 10px;
+  top: 0px;
   transform: rotate(180deg);
 
   &:before{
@@ -271,7 +278,7 @@ a {
 
 
 .main-nav{
-  margin-top: 25px;
+  margin: 25px 0 0 0;
   padding-left: 0;
   @media(min-width: $screen-sm-min){
     margin-top: 50px;
