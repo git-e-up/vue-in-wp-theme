@@ -32,19 +32,19 @@
     "file-loader": "^0.9.0",
     "foundation-sites": "^6.3.1",
     "fs-extra": "^1.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-combine-mq": "^0.4.0",
     "gulp-concat": "^2.6.1",
     "gulp-notify": "^2.2.0",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^2.1.2",
-    "gulp-watch": "^4.3.11",
+    "gulp-watch": "^5.0.1",
     "jquery.mmenu": "^5.7.8",
     "path": "^0.12.7",
     "vue-loader": "^11.1.4",
     "vue-template-compiler": "^2.2.1",
     "webpack": "^2.2.0",
-    "webpack-dev-server": "^2.2.0"
+    "webpack-dev-server": "^3.1.9"
   }
 }
