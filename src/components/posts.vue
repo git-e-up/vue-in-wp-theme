@@ -17,8 +17,9 @@
           <h1 class="init-header" v-if="show" v-html="introMessage"></h1>
         </span>
       </transition>
-      <div v-if="content[this.selectedIndex]">
-        <span class="info__left-arrow" v-on:click="prevPost"></span>
+      <span class="info__left-arrow" v-on:click="prevPost"></span>
+      <div class="info__content" v-if="content[this.selectedIndex]">
+
         <div v-html="content[this.selectedIndex][0].contentMain"></div>
         <ul v-if="content[this.selectedIndex][1]" class="info__list">
           <li v-for="(post, postIndex) in content[this.selectedIndex][1].repstuff" :key="postIndex" class="info__list__item" v-on:click="openModal(postIndex)">
@@ -29,8 +30,9 @@
             <section class='info__popup' :class="{'info--show-popup':modalOpen[postIndex]}" :ref="'popup-'+postIndex"><span class='x-close'></span><div v-html="post.post_content"></div></section>
           </li>
         </ul>
-        <span class="info__right-arrow" v-on:click="nextPost"></span>
+
       </div>
+        <span class="info__right-arrow" v-on:click="nextPost"></span>
     </div>
 
     <div class="modal-background" :class="{'modal-background--open': modalBackground }" v-on:click="closeModal"></div>

@@ -98,12 +98,15 @@ a {
   margin-bottom: 100px;
   position: relative;
 }
+.info__content{
+	padding: 10px;
+}
 .info__list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0;
-	padding: 10px;
+	// padding: 10px;
 }
 .info__list__item {
   width: 45%;
